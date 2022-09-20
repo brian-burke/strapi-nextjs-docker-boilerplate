@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next frontend
 
-## Getting Started
+This frontend relies on Next's [Static Generation](https://nextjs.org/docs/basic-features/pages) using [Strapi](https://strapi.io/) as the data source. Make sure Strapi is running in parallel when you run this app.
 
-First, run the development server:
+## Routes
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+**pages/[[...slug]].js**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This file generates all the app's route. First, it fetches all the pages entries in Strapi. Then, it creates one route per page found. These routes can look like this:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+* yoursite.com
+* yoursite.com/page
+* yoursite.com/page/nested/route
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Notice that the path of the page can be several layers deep, or it can be the root of the site. This is possible thanks to Next's [optional catch-all routes](https://nextjs.org/docs/routing/dynamic-routes#optional-catch-all-routes).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+To see how to build these nested routes, see [the Strapi project's Readme](../backend/README.md).
 
-## Learn More
+## Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+In the project directory, you can run:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**`yarn dev`**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Runs the app in the development mode.  
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Deploy on Vercel
+The page will reload if you make edits.  
+You will also see any errors in the console.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**`yarn build`**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Builds the app for production to the `.next` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+**`yarn start`**
+
+Starts the application in production mode.
+The application should be compiled with \`next build\` first.
+
+See the section in Next docs about [deployment](https://nextjs.org/docs/deployment) for more
+information.

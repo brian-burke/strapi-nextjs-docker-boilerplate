@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ce04f21-ebaf-4c0b-97dc-0a3f3d250219" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/src/api/api/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/api/global/content-types/global/schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/api/global/controllers/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/api/global/routes/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/api/global/services/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/api/lead-form-submission/content-types/lead-form-submission/schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/api/lead-form-submission/controllers/lead-form-submission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/api/lead-form-submission/routes/lead-form-submission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/api/lead-form-submission/services/lead-form-submission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/api/page/content-types/page/schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/api/page/controllers/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/api/page/routes/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/api/page/services/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/elements/feature-column.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/elements/feature-row.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/elements/feature.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/elements/footer-section.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/elements/logos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/elements/notification-banner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/elements/plan.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/elements/testimonial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/layout/footer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/layout/navbar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/links/button-link.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/links/button.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/links/link.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/meta/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/sections/bottom-actions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/sections/feature-columns-group.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/sections/feature-rows-group.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/sections/hero.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/sections/large-video.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/sections/lead-form.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/sections/pricing.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/sections/rich-text.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/components/sections/testimonials-group.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/global/content-types/global/schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/global/controllers/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/global/routes/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/global/services/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/lead-form-submission/content-types/lead-form-submission/schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/lead-form-submission/controllers/lead-form-submission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/lead-form-submission/routes/lead-form-submission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/lead-form-submission/services/lead-form-submission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/page/content-types/page/schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/page/controllers/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/page/routes/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/page/services/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/elements/feature-column.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/elements/feature-row.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/elements/feature.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/elements/footer-section.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/elements/logos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/elements/notification-banner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/elements/plan.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/elements/testimonial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/layout/footer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/layout/navbar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/links/button-link.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/links/button.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/links/link.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/meta/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/sections/bottom-actions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/sections/feature-columns-group.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/sections/feature-rows-group.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/sections/hero.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/sections/large-video.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/sections/lead-form.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/sections/pricing.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/sections/rich-text.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/components/sections/testimonials-group.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/next-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/_app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/api/hello.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2F1iu254yemX2UXoSns7wweTON5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/brianburke/WebstormProjects/strapi-nextjs-docker-boilerplate/frontend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/brianburke/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/221.5787.30/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/backend/src" />
+      <recent name="$PROJECT_DIR$/backend/src/api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.backend: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="backend" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="postgres" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.backend: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ce04f21-ebaf-4c0b-97dc-0a3f3d250219" name="Changes" comment="" />
+      <created>1663666209567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663666209567</updated>
+      <workItem from="1663666210811" duration="1894000" />
+      <workItem from="1663669031345" duration="6172000" />
+      <workItem from="1663692528035" duration="5157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/frontend/pages/_app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

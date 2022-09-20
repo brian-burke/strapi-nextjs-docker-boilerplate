@@ -29,6 +29,8 @@ services:
     restart: unless-stopped
     networks:
       - internal
+    environment:
+      NODE_OPTIONS: --openssl-legacy-provider
     volumes:
       - ./frontend:/app
       - /app/node_modules
@@ -68,7 +70,6 @@ services:
   postgres:
     image: postgres:12.0-alpine
     container_name: ${PROJECT_SLUG}_postgres
-    platform: linux/amd64
     restart: unless-stopped
     env_file: .env
     environment:
