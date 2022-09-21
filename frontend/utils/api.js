@@ -50,6 +50,7 @@ export async function fetchAPI(path, urlParamsObject = {}, options = {}) {
 export async function getPageData({ slug, locale, preview }) {
   // Find the pages that match this slug
   const gqlEndpoint = getStrapiURL("/graphql")
+
   const pagesRes = await fetch(gqlEndpoint, {
     method: "POST",
     headers: {
@@ -72,13 +73,9 @@ export async function getPageData({ slug, locale, preview }) {
         }
         query GetPages(
           $slug: String!
-          $publicationState: PublicationState!
-          $locale: I18NLocaleCode!
         ) {        
           pages(
             filters: { slug: { eq: $slug } }
-            publicationState: $publicationState
-            locale: $locale
           ) {
             data {
               id
@@ -240,8 +237,6 @@ export async function getPageData({ slug, locale, preview }) {
       `,
       variables: {
         slug,
-        publicationState: preview ? "PREVIEW" : "LIVE",
-        locale,
       },
     }),
   })
@@ -279,8 +274,8 @@ export async function getGlobalData(locale) {
             }
           }
         }
-        query GetGlobal($locale: I18NLocaleCode!) {
-          global(locale: $locale) {
+        query GetGlobal {
+          global {
             data {
               id
               attributes {
@@ -340,14 +335,9 @@ export async function getGlobalData(locale) {
           }
         }      
       `,
-      variables: {
-        locale,
-      },
     }),
   })
 
-  console
-
   const global = await globalRes.json()
-  return global.data.global
+  return global.data.global.data
 }
